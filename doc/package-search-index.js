@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.proxibanque.dao"},{"l":"com.proxibanque.model"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.proxibanque.dao"},{"l":"com.proxibanque.model"},{"l":"com.proxibanque.presentation"},{"l":"com.proxibanque.service"},{"l":"test.service"}]

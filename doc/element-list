@@ -1,2 +1,5 @@
 com.proxibanque.dao
 com.proxibanque.model
+com.proxibanque.presentation
+com.proxibanque.service
+test.service
