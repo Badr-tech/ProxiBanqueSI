@@ -13,25 +13,22 @@ import com.proxibanque.service.IServiceCompte;
 import com.proxibanque.service.ServiceClient;
 import com.proxibanque.service.ServiceCompte;
 
+/**
+ * @author BBW La classe MonApplication qui est le point d'entrée de mon
+ *         application
+ */
 public class MonApplication {
 
+	/**
+	 * Méthode main
+	 * 
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 
-//		System.out.println("Bonjour dans notre Application ");
-//		com.proxibanque.dao.
-//		CompteCourantDao compteCourantDao = new com.proxibanque.dao.CompteCourantDao();
-//		Service compte=new Service();
-//		
-//		compteCourantDao.listerComptes();
-//		com.proxibanque.model.CompteCourant compte1=compteCourantDao.selectCompte();
-//		com.proxibanque.model.CompteCourant compte2=compteCourantDao.selectCompte();
-//		System.out.println(compte1+ " "+compte2);Scanner sc=new Scanner(System.in);
-//		System.out.println("Entrer le Montant a verser");
-//		double montant=sc.nextDouble();
-//		compte.virementCompte(compte1, compte2, montant);
-
-		// Déclaration des Agences, Gérants, Conseillers (Faire gaf à l'IdAgence)!
+		System.out.println("Bonjour dans l'application ProxiBanqueSI.V1 ");
 
 		// Affiche le menu de départ
 		int choix = 11;
@@ -119,8 +116,7 @@ public class MonApplication {
 						} else if (choix == 6) {
 							sc.nextLine();
 							System.out.println("+------ EFFECTUER UN VIREMENT ------+");
-							// CompteCourantDao compteCourantDao = new
-							// com.proxibanque.dao.CompteCourantDao();
+
 							IServiceClient serviceClient = new ServiceClient();
 							IServiceCompte serviceCompte = new ServiceCompte();
 							CompteDao compteDao = new CompteDao();
@@ -138,11 +134,6 @@ public class MonApplication {
 							serviceCompte.effectuerVirement(compteDebiteur, compteCrediteur, montant);
 							double resultat = compteDebiteur.getSolde() + montant;
 							System.out.println(resultat);
-
-							// compteCourantDao.listerComptes();
-////												com.proxibanque.model.CompteCourant compte1=compteCourantDao.selectCompte();
-////												com.proxibanque.model.CompteCourant compte2=compteCourantDao.selectCompte();
-							// System.out.println(compteDebiteur + " " + compteCrediteur);
 
 						}
 

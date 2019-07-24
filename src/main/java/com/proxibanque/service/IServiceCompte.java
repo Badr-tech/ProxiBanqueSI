@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import com.proxibanque.model.Compte;
 
 /**
- * @author BBW L'interface IServiceCompte
+ * L'interface IServiceCompte
+ * @author BBW 
  */
 public interface IServiceCompte {
 

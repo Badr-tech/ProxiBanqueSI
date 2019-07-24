@@ -5,7 +5,8 @@ import com.proxibanque.dao.ClientDao;
 import com.proxibanque.model.Client;
 
 /**
- * @author BBW La class ServiceClient qui implément l'interface IServiceClient
+ * La class ServiceClient qui implément l'interface IServiceClient
+ * @author BBW 
  */
 public class ServiceClient implements IServiceClient {
 

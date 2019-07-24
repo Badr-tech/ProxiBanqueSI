@@ -15,10 +15,11 @@ public class ClientDao implements IDao<Client> {
 	ArrayList<Client> listeClient = new ArrayList<Client>();
 
 	/**
+	 * Creer un clientDAO
+	 * 
 	 * @param id
 	 * @return true
-	 * 
-	 *         creer un clientDAO
+	 *        
 	 */
 
 	@Override
