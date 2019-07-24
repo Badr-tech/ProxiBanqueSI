@@ -18,6 +18,11 @@ public class Personne {
 	// Getters et setters
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Id
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public int getId() {
@@ -25,6 +30,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Id
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param id
 	 */
 	public void setId(int id) {
@@ -32,6 +42,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Nom
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public String getNom() {
@@ -39,6 +54,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Nom
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param nom
 	 */
 	public void setNom(String nom) {
@@ -46,6 +66,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Prenom
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public String getPrenom() {
@@ -53,6 +78,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Prenom
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param prenom
 	 */
 	public void setPrenom(String prenom) {
@@ -60,6 +90,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Code Postal
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public int getCodePostal() {
@@ -67,6 +102,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Code Postal
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param codePostal
 	 */
 	public void setCodePostal(int codePostal) {
@@ -74,6 +114,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Telephone
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public int getTelephone() {
@@ -81,6 +126,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Telephone
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param telephone
 	 */
 	public void setTelephone(int telephone) {
@@ -88,6 +138,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Ville
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public String getVille() {
@@ -95,6 +150,11 @@ public class Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Ville
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param ville
 	 */
 	public void setVille(String ville) {
@@ -122,6 +182,10 @@ public class Personne {
 		this.ville = ville;
 	}
 
+<<<<<<< HEAD
+=======
+	// Methode toString
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	/**
 	 * Methode toString
 	 */

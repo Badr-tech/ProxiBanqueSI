@@ -2,7 +2,10 @@ package com.proxibanque.model;
 
 /**
  * implementation de la classe Gerant qui herite de la classe Personne
+<<<<<<< HEAD
  * 
+=======
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
  * @author BBW
  *
  */
@@ -14,7 +17,10 @@ public class Gerant extends Personne {
 	// Constructeurs
 	/**
 	 * constructeur avec 8 parametres
+<<<<<<< HEAD
 	 * 
+=======
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param id
 	 * @param nom
 	 * @param prenom
@@ -33,6 +39,10 @@ public class Gerant extends Personne {
 
 	// Gettesr & Setters
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Login
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public String getLogin() {
@@ -40,6 +50,10 @@ public class Gerant extends Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Login
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param login
 	 */
 	public void setLogin(String login) {
@@ -47,6 +61,10 @@ public class Gerant extends Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Password
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public String getPassword() {
@@ -54,6 +72,10 @@ public class Gerant extends Personne {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Password
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param password
 	 */
 	public void setPassword(String password) {
@@ -61,7 +83,11 @@ public class Gerant extends Personne {
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Méthode to STring
+=======
+	 *methode to String
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 */
 	@Override
 	public String toString() {

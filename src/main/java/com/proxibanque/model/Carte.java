@@ -2,7 +2,10 @@ package com.proxibanque.model;
 
 /**
  * implementation de la classe carte
+<<<<<<< HEAD
  * 
+=======
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
  * @author BBW
  *
  */
@@ -29,6 +32,11 @@ public class Carte {
 
 	// Getters & Setters
 	/**
+<<<<<<< HEAD
+=======
+	 * 
+	 * getter de Numero Carte
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public int getNumeroCarte() {
@@ -36,6 +44,10 @@ public class Carte {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Numero Carte
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param numeroCarte
 	 */
 	public void setNumeroCarte(int numeroCarte) {
@@ -43,6 +55,11 @@ public class Carte {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Type Carte
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public String getTypeCarte() {
@@ -50,6 +67,10 @@ public class Carte {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Type Carte
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param typeCarte
 	 */
 	public void setTypeCarte(String typeCarte) {
@@ -57,13 +78,25 @@ public class Carte {
 	}
 
 	/**
+<<<<<<< HEAD
 	 * @return
 	 */
 	public boolean getActivation() {
+=======
+	 * getter d' Activation
+	 * @return
+	 */
+	public boolean isActivation() {
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 		return activation;
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * 
+	 * setter d'Activation
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param activation
 	 */
 	public void setActivation(boolean activation) {
@@ -71,7 +104,11 @@ public class Carte {
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Méthode toString
+=======
+	 * methode toString
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 *
 	 */
 	@Override

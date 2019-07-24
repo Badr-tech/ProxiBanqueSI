@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import com.proxibanque.model.Client;
 
 /**
+ * Implementation DAO pour la classe Client
+ * 
  * @author BBW
  * 
- *         Implementation DAO pour la classe Client
+ * 
  *
  */
 public class ClientDao implements IDao<Client> {
@@ -15,11 +17,20 @@ public class ClientDao implements IDao<Client> {
 	ArrayList<Client> listeClient = new ArrayList<Client>();
 
 	/**
+<<<<<<< HEAD
 	 * Creer un clientDAO
 	 * 
 	 * @param id
 	 * @return true
 	 *        
+=======
+	 * creer un clientDAO
+	 * 
+	 * @param id
+	 * @return true
+	 * 
+	 * 
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 */
 
 	@Override

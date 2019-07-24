@@ -9,6 +9,7 @@ package com.proxibanque.model;
 
 public class CompteEpargne extends Compte {
 
+<<<<<<< HEAD
 	private int tauxRemuneration;
 	private Client client;
 
@@ -16,6 +17,21 @@ public class CompteEpargne extends Compte {
 	/**
 	 * constructeur avec 5 parametres
 	 * 
+=======
+/**
+ * implementation de la classe CompteEpargne qui herite de la classe Compte
+ * @author BBW
+ *
+ */
+public class CompteEpargne extends Compte{
+	
+	private int tauxRemuneration;
+	private Client client;
+	
+	//Constructeurs
+	/**
+	 * constructeur avec 5 parametres
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param numCompte
 	 * @param solde
 	 * @param dateOverture
@@ -28,8 +44,14 @@ public class CompteEpargne extends Compte {
 		this.client = client;
 	}
 
+<<<<<<< HEAD
 	// Getters & setters
 	/**
+=======
+	//Getters & setters
+	/**
+	 * Getter de Taux Remuneration
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public int getTauxRemuneration() {
@@ -37,6 +59,10 @@ public class CompteEpargne extends Compte {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Taux Remuneration
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param tauxRemuneration
 	 */
 	public void setTauxRemuneration(int tauxRemuneration) {
@@ -44,6 +70,10 @@ public class CompteEpargne extends Compte {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * getter de Client
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @return
 	 */
 	public Client getClient() {
@@ -51,6 +81,10 @@ public class CompteEpargne extends Compte {
 	}
 
 	/**
+<<<<<<< HEAD
+=======
+	 * setter de Client
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 * @param client
 	 */
 	public void setClient(Client client) {
@@ -58,7 +92,12 @@ public class CompteEpargne extends Compte {
 	}
 
 	/**
+<<<<<<< HEAD
 	 * Méthode to string
+=======
+	 * methode to String
+	 *
+>>>>>>> 381976502141c618d110a1321416d09f6be0d339
 	 */
 	@Override
 	public String toString() {

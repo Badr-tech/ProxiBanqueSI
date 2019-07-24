@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import com.proxibanque.model.Compte;
 
 /**
+ * Implementation DAO pour la classe Compte
+ * 
  * @author BBW
  * 
- * Implementation DAO pour la classe Compte
+ * 
  *
  */
 public class CompteDao implements IDao<Compte> {
@@ -36,7 +38,7 @@ public class CompteDao implements IDao<Compte> {
 
 	/**
 	 *
-	 *supprimer un compteDAO
+	 * supprimer un compteDAO
 	 */
 	@Override
 	public boolean delete(Compte compte) throws Exception {
@@ -46,7 +48,7 @@ public class CompteDao implements IDao<Compte> {
 
 	/**
 	 * 
-	 *lister un compteDAO par son id
+	 * lister un compteDAO par son id
 	 */
 	@Override
 	public Compte getById(int id) throws Exception {
@@ -56,7 +58,7 @@ public class CompteDao implements IDao<Compte> {
 
 	/**
 	 *
-	 *lister tous les compteDAO
+	 * lister tous les compteDAO
 	 */
 	@Override
 	public ArrayList<Compte> getAll() throws Exception {
